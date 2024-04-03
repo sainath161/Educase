@@ -1,0 +1,51 @@
+/* Login.css */
+.container {
+  margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top */
+    width: 20%;
+    border: 2px solid black;
+}
+
+.input-container {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc; /* Add underline */
+  font-size: 16px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input {
+  width: calc(100% - 30px); /* Adjust width to accommodate toggle button */
+}
+
+.password-toggle {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: purple; /* Purple background color */
+  color: white;
+}

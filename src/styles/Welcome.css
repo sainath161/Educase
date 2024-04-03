@@ -1,0 +1,155 @@
+/* Welcome.css */
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container1 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; /* Align text to bottom */
+    width: 20%;
+    height: 90vh;
+    background-color: #f0f0f0; /* Gray background color */
+    padding-bottom: 30px;
+    border: 2px solid black;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%; /* Make buttons take full width */
+  }
+  
+  .button-container button {
+    width: 100%; /* Make buttons take full width */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .create-account-button {
+    background-color: #6c25ff; /* Violet background color */
+    color: white;
+  }
+  
+  .login-button {
+    background-color: #cebafb; /* Purple background color */
+    color: black;
+  }
+  
+
+  @media screen and (max-width:1400px) {
+    .container1 {
+      width: 22%;
+    }
+  }
+
+  @media screen and (max-width:1300px) {
+    .container1 {
+      width: 24%;
+    }
+  }
+
+  @media screen and (max-width:1200px) {
+    .container1 {
+      width: 25%;
+    }
+  }
+
+  @media screen and (max-width:1100px) {
+    .container1 {
+      width: 26%;
+    }
+  }
+
+  @media screen and (max-width:1000px) {
+    .container1 {
+      width: 28%;
+    }
+  }
+
+  @media screen and (max-width:900px) {
+    .container1 {
+      width: 30%;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .container1 {
+      width: 33%;
+    }
+  }
+
+  @media screen and (max-width:750px) {
+    .container1 {
+      width: 35%;
+    }
+  }
+
+  @media screen and (max-width:700px) {
+    .container1 {
+      width: 37%;
+    }
+  }
+
+  @media screen and (max-width:650px) {
+    .container1 {
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .container1 {
+      width: 45%;
+    }
+  }
+
+  @media screen and (max-width:550px) {
+    .container1 {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .container1 {
+      width: 55%;
+    }
+  }
+
+  @media screen and (max-width:450px) {
+    .container1 {
+      width: 65%;
+    }
+  }
+
+  @media screen and (max-width:380px) {
+    .container1 {
+      width: 75%;
+    }
+  }
+
+  @media screen and (max-width:335px) {
+    .container1 {
+      width: 85%;
+    }
+  }
+
+  @media screen and (max-width:275px) {
+    .container1 {
+      width: 95%;
+    }
+  }
+
+  @media screen and (max-width:240px) {
+    .container1 {
+      width: 100%;
+    }
+  }

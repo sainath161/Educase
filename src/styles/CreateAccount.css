@@ -1,0 +1,84 @@
+/* CreateAccount.css */
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20%;
+  height: 90vh;
+  background-color: #f0f0f0;
+  padding-bottom: 30px;
+  border: 2px solid black;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  
+  .input-container input {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .password-input{
+    margin-bottom: 20px;
+    width: 90%;
+  }
+
+  .password-input input {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .radio-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .radio-container label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-container input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .button-container1 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0;
+    gap: 10px;
+    width: 90%;
+  }
+  
+  .button-container1 button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #6c25ff;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+  }
